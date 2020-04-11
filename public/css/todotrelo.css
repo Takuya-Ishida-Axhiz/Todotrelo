@@ -1,0 +1,51 @@
+body{
+    font-family:verdana;
+    font-size:20px;
+}
+
+.container{
+    width:220px;
+    margin: 20px auto;
+}
+
+h1 {
+   font-size:40px;
+   padding-bottom:5px;
+   margin-bottom:30px;
+   border-bottom: solid 10px #87CEFA;
+   
+}
+
+.header-menu {
+    font-size:14px;
+    font-weight:normal;
+    float:right;
+}
+
+input [type="text"]{
+    box-sizing:border-box;
+    width:400px;
+    padding:10px;
+    
+}
+
+button{
+    opacity:0.8;
+    box-shadow:3px;
+}
+
+.error {
+    color:tomato;
+}
+
+.edit {
+    font-size:12px;
+}
+
+.del {
+    font-size:12px;
+}
+
+.btn {
+    float:left;
+}
