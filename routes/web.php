@@ -17,8 +17,8 @@ Route::get('/todocard/create','TodocardsController@create');
 Route::post('/todocard/add','TodocardsController@store');
 Route::get('/todocard/{id}/edit','TodocardsController@edit');
 Route::patch('/todocard/{id}','TodocardsController@update');
-//Route::delete('/todocard/{id}/','TodocardsController@destroy');
-Route::delete('/todocard/{id}','TodocardsController@destroy');
+Route::get('/todocard/{id}/delete','TodocardsController@destroy');
+// Route::delete('/todocard/{id}','TodocardsController@destroy');
 
 
 // http://任意のサーバ名/dev/phpinfoにアクセスすればOK

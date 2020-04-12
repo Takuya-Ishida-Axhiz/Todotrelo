@@ -26,7 +26,7 @@ todotrelo!
             
             
             
-            <p>厄介じゃのう。</p>
+            <p>ひとつにフォーカスしよう。マルチタスクは死ぬ。</p>
             <a href="{{ url('/') }}" class="header-menu">Back</a>
             
 @endsection

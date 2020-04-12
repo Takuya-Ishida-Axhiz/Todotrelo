@@ -1,11 +1,10 @@
-body{
-    font-family:verdana;
-    font-size:20px;
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #4d639f;
 }
 
-.container{
-    width:220px;
-    margin: 20px auto;
+.container {
+    max-width: 400px;
 }
 
 h1 {
@@ -46,6 +45,3 @@ button{
     font-size:12px;
 }
 
-.btn {
-    float:left;
-}
